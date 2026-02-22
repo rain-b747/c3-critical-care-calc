@@ -1,0 +1,40 @@
+/* ===== iOS Safari 横ズレ完全対策 & 医療アプリ用 ===== */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  background: #f9fafb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* フォントと基本描画だけ残す */
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 余計な初期スタイルは消す */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+}
