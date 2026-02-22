@@ -1,23 +1,23 @@
 {
-    "name": "C3: Critical Care Calc",
-    "short_name": "C3",
-    "description": "医療者向け集中治療・救急計算ツール",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#2563eb",
-    "orientation": "portrait",
-    "icons": [
-      {
-        "src": "/icons/192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "/icons/512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ]
-  }
-  
+  "name": "C3: Critical Care Calc",
+  "short_name": "C3",
+  "description": "医療者向け集中治療・救急計算ツール",
+  "start_url": "/C3_Critical_Care_Calc/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait",
+  "scope": "/C3_Critical_Care_Calc/",
+  "icons": [
+    {
+      "src": "/C3_Critical_Care_Calc/icons/192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/C3_Critical_Care_Calc/icons/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
